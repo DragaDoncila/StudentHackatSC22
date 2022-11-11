@@ -4,38 +4,24 @@ title: Docsy Jekyll Theme
 permalink: /
 ---
 
-# Welcome to Docsy Jekyll
+# Pandemic! Control a Pandemic Disease before it Runs Rampant
 
-This is a starter template for a docsy jekyll theme.
-
-![assets/img/docsy-jekyll.png](assets/img/docsy-jekyll.png)
-
-## Purpose
-
-GitHub pages uses Jekyll natively, so when I make documentation, I typically
-look for Jekyll templates. Why? Using Jekyll means that I can use markdown,
-and allow for users to easily contribute, and build automatically just by
-way of pushing to a master branch (or general GitHub pages).
-I found Docsy, a beautiful Hugo template, but it requires hugo with GoLang
-which doesn't render natively on GitHub pages. For this reason, I've spent
-some time creating a custom Jekyll template that is (almost) as beautiful,
-and includes all the features that I might want.
-
-## Features
-
-What are these features? You should see the {% include doc.html name="Getting Started" path="getting-started" %}
-guide for a complete summary. Briefly:
-
- - *User interaction* including consistent permalinks, links to ask questions via GitHub issues, and edit the file on GitHub directly.
- - *Search* across posts, documentation, and other site pages, with an ability to exclude from search.
- - *External Search* meaning an ability to link any page tag to trigger an external search.
- - *Documentation* A documentation collection that was easy to organize on the filesystem, render with nested headings for the user, and refer to in markdown.
- - *Pages* A separate folder for more traditional pages (e.g, about).
- - *Navigation*: Control over the main navigation on the left of the page, and automatic generation of table of contents for each page on the right.
- - *News* A posts feed for news and updates, along with an archive (organized by year).
- - *Templates* or specifically, "includes" that make it easy to create an alert, documentation link, or other content.
- - *Continuous Integration* recipes to preview the site
+  _Hosted by:_ [Supercomputing22](https://sc22.supercomputing.org/presentation/?id=misc102&sess=sess302)
+  <br>
+  Experience a slice of the computational research world, take the role of a computational scientist tasked with understanding 
+  a pandemic currently spreading through a community and researching solutions to keep the community safe.
+  <br>
+  The SC22 Student Programming will host a workshop that will introduce students to a slice of that computational research cycle. 
+  The workshop will be taught by Charlie Dey and Je’aime Powell from the Texas Advanced Computing Center (TACC).
+  <br>
+  Computational research begins with an observation of a natural occurrence, then transitions to developing a model which 
+  mathematically describes that occurrence, to using advanced computing techniques to solve that model, then generating, 
+  verifying, and validating the data against observational data, and repeating the cycle: building and expanding, solving, 
+  generating, verifying and validating. The end goal is to build a system, accurately representing a scientific process, 
+  which you can run "what if" scenarios against when a real world experiment is not attainable.
+  <br>
+  It starts with a simple scientific process, using simple probability to get a "person" sick. Then expand that simple process 
+  into a computational model to simulate a disease propagating through a set population. Students will be broken into teams 
+  and given a set of challenges, requiring the teams to update and expand their computational models to meet.
 
 
-For features, getting started with development, see the {% include doc.html name="Getting Started" path="getting-started" %} page. Would you like to request a feature or contribute?
-[Open an issue]({{ site.repo }}/issues)
