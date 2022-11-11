@@ -14,10 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Pandemic! Control a Pandemic Disease before it Runs Rampant"
+title: "Mini-Workshop at SC22"
 email: jpowell@tacc.utexas.edu
 author: HackHPC
 description: > 
+  Pandemic! Control a Pandemic Disease before it Runs Rampant
+  <br>
   Experience a slice of the computational research world, take the role of a computational scientist tasked with understanding 
   a pandemic currently spreading through a community and researching solutions to keep the community safe.
   <br>
@@ -42,7 +44,7 @@ url: "https://hackhpc.github.io" # the base hostname & protocol for your site
 
 # Social (First three Required)
 repo: "https://github.com/HackHPC/StudentHackatSC22"
-github_user: "jeaimehp"
+github_user: "HackHPC"
 github_repo: "StudentHackatSC22"
 github_branch: "master"
 
