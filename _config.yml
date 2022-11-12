@@ -43,10 +43,10 @@ version_params:
   version_menu: "Release"
   version_dir: Archive
   tocversion_dir: versions
-  versioning: true
+  versioning: false
 
   # Disable so older versions cannot be searched
-  allow_search: true  
+  allow_search: false 
 
   # Allow these versions to be searched
   search_versions:
@@ -111,3 +111,45 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+# Presenters
+presenters:
+- name: "Charlie Dey"
+  position: "Texas Advanced Computing Center"
+  url: https://www.tacc.utexas.edu/
+  text: >
+    Charlie is the Director of Training and Professional Development with the User Services 
+    group at TACC with a background in web development and scientific computing. Charlie's 
+    responsibilities at TACC include organizing, developing content, and building 
+    curriculums for TACC's academic course selection taught in conjunction with several
+      departments at the University of Texas at Austin, as well as for TACC's professional 
+      development and educational training. 
+  img: "/assets/img/charlie-dey.jpeg"
+  social: # Ref: https://fontawesome.com/v4/icons/ for supported titles
+  - title: envelope #use for email address
+    url: "mailto:charlie@tacc.utexas.edu"
+  - title: linkedin
+    url: https://www.linkedin.com/in/charlie-dey-0031317a/
+  - title: twitter
+    url: https://twitter.com/DeyCharlie
+  - title: link
+    url: https://www.tacc.utexas.edu/about/directory/charlie-dey  
+
+- name: "Je'aime Powell"
+  position: "Texas Advanced Computing Center"
+  title: "Senior HPC Systems Administrator and Researcher"
+  url: https://www.tacc.utexas.edu/
+  text: >
+    Je’aime is a Systems Administrator and a researcher at the Texas Advanced Computing
+    Center. When not working on high-perfomance/cloud compute systems or mentoring
+    students you can find him designing, creating, and/or deploying enviromental sensors.
+  img: "/assets/img/jeaime-sq.png"
+  social:
+    - title: envelope #use for email address
+      url: mailto:jpowell@tacc.utexas.edu
+    - title: linkedin
+      url: https://www.linkedin.com/in/jeaimehp/
+    - title: twitter
+      url: https://twitter.com/jeaimehp
+    - title: github
+      url: https://github.com/jeaimehp
