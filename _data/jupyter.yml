@@ -1,59 +1,93 @@
 
 designsafe:
-- description: >
+- step:
+  description: >
     <strong>Step 1: Log into Designsafe</strong> - In a web browser go to <a href="https://www.designsafe-ci.org">https://www.designsafe-ci.org</a> and login.
     Note: If you need a Designsafe account; Fill out and submit the <a href="https://www.designsafe-ci.org/account/register">registration form</a>, follow the instructions 
     in the email you receive to confirm your account, then log into DesignSafe.
-#- image: ""
-- description: >
+  anchor: "Log into Designsafe-CI"
+
+- step:
+  description: >
     <strong>Step 2: Go to Data Depot </strong> -  Click <em>"Workspace"</em> in the tab bar and then <em>"Data Depot"</em> in the dropdown
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-0.png"
-- description: >
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-1.png"
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-0.png"
+  anchor: "Copy code to My Data"
+
+- step:
+  #description: 
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-1.png"
 #- description: >
 #- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-2.png"
-- description: >
+
+- step:
+  description: >
     <strong>Step 3: Make a copy of the SC22-Pandemic-Hack Folder </strong> - On the left of the wind click <em><strong>"Community Data"</strong></em> (#1 in the picture)
     then check the box next to <em><strong>"SC22-Pandemic-Hack"</strong></em> (#2 in the picture) and then 
     click <em><strong>"Copy"</strong></em> (#3 in the picture) in the ribbon bar.
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-3.png"
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-3.png"
 #- description: >
 #- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-4.png"
-- description: >
+
+- step:
+  description: >
     <strong>Step 4: Copy in to the  "My Data" Folder </strong> - Make sure "My Data" is selected and click "Copy Here"
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-5.png"
-- description: >
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-6.png"
-- description: >
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-5.png"
+
+- step:
+  #description: 
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-6.png"
+
+- step:
+  description: >
     <strong>Step 5: Open Tools and Applications</strong> -  Click <em>"Workspace"</em> and then <em>"Tools and Applications"</em> in the ribbon bar.
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-7.png"
-- description: >
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-7.png"
+  anchor: "Start JupyterHub Session"
+
+- step:
+  description: >
     <strong>Step 6: Select "Analysis" </strong>
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-8.png"
-- description: >
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-8.png"
+
+- step:
+  description: >
     <strong>Step 7: Select "Jupyter" </strong>
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-9.png"
-- description: >
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-9.png"
+
+- step:
+  description: >
     <strong>Step 8: Select "Jupyter" </strong> - Select "Jupyter" from the dropdown titled "Select a version of Jupyter from the dropdown:"
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-10.png"
-- description: >
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-10.png"
+
+- step:
+  description: >
     <strong>Step 9: Click "Launch" </strong>
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-11.png"
-- description: >
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-11.png"
+
+- step:
+  description: >
     If asked, click "Sign in with JupyterHub"
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-12.png"
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-12.png"
 #- description: >    
 #- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-13.png"
-- description: >
+
+- step:
+  description: >
     <strong>Step 10: Select "Updated Jupyter Image (base-0.1.0)" and click "Start My Server"</strong>
 #- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-14.png"
 #- description: >
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-15.png"
-- description: >
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-15.png"
+
+- step:
+  description: >
      <strong>Step 11: Open the "SC22-Pandemic-Hack" folder </strong> Click the folder labeled "SC22-Pandemic-Hack"
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-16.png"
-- description: >
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-16.png"
+  anchor: "Run the SIR Model Notebook"
+
+- step:
+  description: >
     <strong>Step 12: Open the "SIR-Model-2022" Jupyter Notebook </strong> 
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-17.png"
-- description: >
-- image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-18.png"
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-17.png"
+
+- step:
+  #description:
+  image: "/assets/img/designsafe-jupyter-screenshots/sc22-designsafe-18.png"
