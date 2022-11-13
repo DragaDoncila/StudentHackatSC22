@@ -7,7 +7,9 @@ permalink: /
 # Pandemic! Control a Pandemic Disease before it Runs Rampant
 
   _Presented at:_ [Supercomputing22](https://sc22.supercomputing.org/presentation/?id=misc102&sess=sess302)
-  <br><br>
+
+<h1 style="background:lightgreen;  text-align: center;">  <a href="{{ site.baseurl }}/docs/" style="color: black;"> Click Here to Get Started</a> </h1>
+
   Experience a slice of the computational research world, take the role of a computational scientist tasked with understanding 
   a pandemic currently spreading through a community and researching solutions to keep the community safe.
   <br><br>
