@@ -19,7 +19,8 @@ It starts with a simple scientific process, using simple probability to get a â€
         {% for link in person.social %}
           {% if link.title == "envelope" %}
           <a href="{{ link.url }}">[<i class="fa fa-{{ link.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i>]</a>
-          
+          {% else %}
+          <a href="{{ link.url }}">[<i class="fab fa-{{ link.title }}" style="font-size: 14px; padding: 2px; margin: 0px;"></i>]</a>
           {% endif %}
         {% endfor %}
         <br>

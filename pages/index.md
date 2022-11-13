@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Docsy Jekyll Theme
+title: "SC22|Pandemic!"
 permalink: /
 ---
 
