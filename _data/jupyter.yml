@@ -19,6 +19,14 @@ helpfullinks:
   url: http://www.amazon.co.uk/Infectious-Diseases-Humans-Dynamics-Publications/dp/019854040X
 - name: Project Jupyter | JupyterHub
   url: https://jupyter.org/hub
+- name: Individual Hospital Statistics for Texas
+  url: https://www.ahd.com/states/hospital_TX.html
+- name: Example Hospitalization Rates Pre-Vaccine
+  url: https://www.cdc.gov/mmwr/volumes/69/wr/mm6915e3.htm
+- name: Death Rates between Vaccinated and Unvaccinated
+  url: https://www.cdc.gov/mmwr/volumes/71/wr/mm7104e2.htm#T1_down
+- name: Mask Effectiveness
+  url: https://www.cdc.gov/mmwr/volumes/71/wr/mm7106e1.htm 
 
 
 
